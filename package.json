@@ -14,7 +14,7 @@
   "scripts": {
     "dev": "gatsby develop --port 3000",
     "deck": "mdx-deck deck.mdx",
-    "build": "gatsby build",
+    "build": "mdx-deck build deck.mdx",
     "lint": "eslint --fix ./src"
   },
   "devDependencies": {
