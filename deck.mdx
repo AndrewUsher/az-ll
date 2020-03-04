@@ -1,11 +1,18 @@
 import { Split } from 'mdx-deck'
-import ecommStarter from '../assets/ecommerce-starter.png'
-import { StarterImage } from '../src/StarterImage'
-import customTheme from '../src/theme'
+import ecommStarter from './assets/ecommerce-starter.png'
+import figma from './assets/figma.png'
+import nike from './assets/nike.png'
+import reactJS from './assets/reactjs.png'
+import sendgrid from './assets/sendgrid.png'
+import storybook from './assets/storybook.png'
+import { StarterImage } from './src/StarterImage'
+import customTheme from './src/theme'
 
 export const theme = customTheme
 
-# Gatsby
+## Static Site Generation With Gatsby
+### Andrew Usher
+#### 03.04.20 AutoZone Lunch And Learn
 
 ---
 
@@ -52,42 +59,65 @@ export const theme = customTheme
 
 ---
 
-# What Problem Does it Solve?
+# Common Concerns
 
 ---
 
-# Benefits
+# Our site uses a lot of dynamic content and components. Isn’t Gatsby a static site generator?
 
 ---
 
-# How To Use it
+## Yes, and No
+
+- it is, but there’s more to it 
+- statically generates HTML content using React DOM and server-side APIs 
+- this static HTML content can also be enhanced with client-side JavaScript via React hydration
 
 ---
 
-# Storing Assets
+# Do I have to learn GraphQL to use Gatsby?
 
 ---
 
-# Deploying
+## No
+
+- GraphQL is used to pull the content from all your different sources into Gatsby in a consistent, unified way
+- You don’t have to use GraphQL to do this, but learning GraphQL will equip you to create new integrations more easily
 
 ---
 
-# Good Developer Experience
-
-- Maintained by you -- your best dev set up the asset build pipeline, deploys, and dev server. She handles library upgrades and is the only one who understand how all the pieces fit.
-- Undocumented -- new team members frequently blocked on weird quirks you forgot to write down
-- Stack traces of death -- bugs throw application errors, NGINX timeouts, and other errors that frontend developers find impossible to debug
+# Example Sites
 
 ---
 
-# Pitfalls
+# Figma
+
+<StarterImage src={figma} />
 
 ---
 
-# Starters
+# Nike
+
+<StarterImage src={nike} />
 
 ---
 
-# Ecommerce with Shopify
+# ReactJS
 
-<StarterImage src={ecommStarter} />
+<StarterImage src={reactJS} />
+
+---
+
+# Sendgrid
+
+<StarterImage src={sendgrid} />
+
+---
+
+# Storybook
+
+<StarterImage src={storybook} />
+
+---
+
+# <a href="https://gatsby-pokedex.netlify.com" style={{textDecoration: 'none', color: 'inherit'}}>Demo Time!</a>
