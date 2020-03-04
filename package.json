@@ -13,6 +13,7 @@
   },
   "scripts": {
     "dev": "gatsby develop --port 3000",
+    "deck": "mdx-deck decks/ll.mdx",
     "build": "gatsby build",
     "lint": "eslint --fix ./src"
   },

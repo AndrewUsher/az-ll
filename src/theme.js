@@ -9,6 +9,9 @@ export default {
     blockquote: {
       fontStyle: 'italic',
     },
+    ul: {
+      textAlign: 'left'
+    },
     Slide: {
       // justifyContent: 'flex-start'
     }
