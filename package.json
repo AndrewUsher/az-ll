@@ -13,7 +13,7 @@
     "lint": "eslint ./src"
   },
   "devDependencies": {
-    "@drewster/eslint-config": "3.0.0",
+    "@drewster/eslint-config": "4.0.0",
     "eslint": "7.15.0"
   }
 }
